@@ -13,7 +13,7 @@ public class Java8Features {
 
 	public static void main(String[] args) {
 		List<Employee> employeeList = getEmployeeList();
-		// Employee count -- count
+		// Employee count --use of count
 		System.out.println("Employee's count in list(count)::" + employeeList.stream().count());
 
 		// Employee count --counting
